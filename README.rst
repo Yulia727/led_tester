@@ -21,12 +21,12 @@ LED Tester Assignment 3 COMP30670
 
 * Free software: GNU General Public License v3
 * Documentation: https://led-tester.readthedocs.io.
-
+* This project is for COMP30670 Assignment 3.
 
 Features
 --------
 
-* TODO
+* Check the number of the light which are "turn on".
 
 Credits
 -------
