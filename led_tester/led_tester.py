@@ -5,7 +5,6 @@ Created on March 1, 2018
 '''
 # -*- coding: utf-8 -*-
 import requests
-import pytest
 
 def parseFile(input):
     if input.startswith("http"):
@@ -22,4 +21,3 @@ def parseFile(input):
                 instructions.append(line)
         return N, instructions
     return
-
