@@ -35,11 +35,7 @@ setup(
     description="LED Tester Assignment 3 COMP30670",
     entry_points={
         'console_scripts': [
-<<<<<<< HEAD
             'solve_led=led_tester.cli:main',
-=======
-            'solve_led=led_tester.main:main',
->>>>>>> f4ad9a7567adf495a97045ebee93d93a9d8cb926
         ],
     },
     install_requires=requirements,
