@@ -21,3 +21,5 @@ def parseFile(input):
                 instructions.append(line)
         return N, instructions
     return
+if __name__ == "__main__":
+    parseFile(input)  # pragma: no cover
