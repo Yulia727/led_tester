@@ -19,6 +19,11 @@ class LightTester(object):
     def apply(self, command, x1, y1, x2, y2):
         x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
 
+        x1 = min(x1, x2)
+        y1 = min(y1, y2)
+        x2 = max(x1, x2)
+        y2 = max(y1, y2)
+
         if x1 < 0:
             x1 = 0
         
